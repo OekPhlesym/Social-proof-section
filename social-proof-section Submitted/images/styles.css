@@ -1,0 +1,142 @@
+body {
+    background-color: hsl(300, 24%, 96%);  
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 190px;
+    justify-content: space-evenly;
+}
+
+.blog1 {
+    letter-spacing: normal;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.bloger1 {
+    position: absolute;  
+}
+
+.bloger1:nth-child(2) {
+    padding:  100px 300px 0 0;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2 {
+        color: hsl(303, 10%, 53%);
+        font-size: small;
+        line-height: 23px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blog2 {
+    /* display: flex; */
+    flex-direction: row;
+    padding-top: 55px;
+    padding-right: 250px;
+    justify-content: space-evenly;
+}
+
+.rating1 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: rgb(231, 220, 241);
+    border-radius: 9px;
+    padding-left:  20px;
+    margin-left: 0;
+    width: 400px
+}
+
+.rating2 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: rgb(231, 220, 241);
+    border-radius: 9px;
+    padding-left:  20px;
+    margin-left: 30px;
+    width: 400px;
+}
+
+.rating3 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: rgb(231, 220, 241);
+    border-radius: 9px;
+    padding-left:  20px;
+    width: 400px;
+    margin-left: 60px;
+}
+
+
+
+.starsRatings {
+    color: hsl(300, 43%, 22%);
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: -80px;
+    justify-content: center;
+}
+
+ span {
+    color: blueviolet;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 240px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.ratingComment1 , .ratingComment2 , .ratingComment3 {
+    background-color: hsl(300, 43%, 22%);
+    width: 350px;
+    padding: 15px 0 10px 15px;
+    margin: 5px;
+    border-radius: 9px;
+ }
+
+.text {
+    display: block;
+    text-align: left;
+    line-height: 20px;
+    padding: 10px
+}
+
+.profile1 {
+    display: flex;
+}
+
+img {
+    border-radius: 43px;
+}
+
+.name {
+    color: white;
+}
+
+.buyer {
+    color: hsl(333, 80%, 67%);
+}
+
+.comment1 h2{
+    color: white;
+    font-size: 13px;
+ }
+
+
